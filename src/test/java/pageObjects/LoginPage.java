@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -28,6 +29,8 @@ public class LoginPage extends BasePage{
 	@FindBy(xpath="//*[text()='Continue']")
 	WebElement btnContinue;
 	
+	By errorMsg = By.xpath("//div[@id='alert']/div[contains(text(),' Warning:')]");
+	
 	public void enterEmail(String email) {
 		txtEmail.sendKeys(email);
 	}
@@ -35,11 +38,13 @@ public class LoginPage extends BasePage{
 		txtPassword.sendKeys(pwd);
 	}
 	public void clickLogin() {
-		btnLogin.click();
+		//btnLogin.click();
+		clickElement(btnLogin);
 	}
 	
 	public void clickForgottenPassword() {
-		lnkForgottenPassword.click();
+		//lnkForgottenPassword.click();
+		clickElement(lnkForgottenPassword);
 	}
 	
 	public String getSuccessMessage() {
@@ -47,7 +52,13 @@ public class LoginPage extends BasePage{
 	}
 	
 	public void clickBtnContinue() {
-		btnContinue.click();
+		//btnContinue.click();
+		clickElement(btnContinue);
+	}
+	
+	public String getErrorMessage() {
+		WebElement element = waitForElementVisible(errorMsg);
+		return element.getText();
 	}
 
 }

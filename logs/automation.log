@@ -1,620 +1,158 @@
-2026-04-10 11:27:39 DEBUG TestNG:82 -
+2026-04-10 14:02:08 DEBUG TestNG:82 -
 			suiteXmlPath: "D:\Automation Projects\OpenCartV121\master.xml"
-2026-04-10 11:27:48 INFO  TC_001_AccountRegisterationTest:19 -
-			***** Starting TC_001_AccountRegisterationTest *****
-2026-04-10 11:27:49 INFO  TC_001_AccountRegisterationTest:23 -
-			Clicked My Account Link
-2026-04-10 11:27:49 INFO  TC_001_AccountRegisterationTest:25 -
-			Clicked Register Link
-2026-04-10 11:27:49 INFO  TC_001_AccountRegisterationTest:28 -
-			Providing Customer details...
-2026-04-10 11:27:49 INFO  TC_001_AccountRegisterationTest:30 -
-			Entered Customer First Name
-2026-04-10 11:27:50 INFO  TC_001_AccountRegisterationTest:32 -
-			Entered Customer Last Name
-2026-04-10 11:27:50 INFO  TC_001_AccountRegisterationTest:34 -
-			Entered Customer Email
-2026-04-10 11:27:50 INFO  TC_001_AccountRegisterationTest:38 -
-			Entered Customer Password
-2026-04-10 11:27:50 INFO  TC_001_AccountRegisterationTest:41 -
-			Clicked on Privacy Policy
-2026-04-10 11:27:51 INFO  TC_001_AccountRegisterationTest:43 -
-			Clicked on Continue Button
-2026-04-10 11:27:52 INFO  TC_001_AccountRegisterationTest:46 -
-			'My Account Page' success Message - 'Your Account Has Been Created!'also validated...
-2026-04-10 11:27:53 INFO  TC_001_AccountRegisterationTest:50 -
-			Clicked on Logout Btn...
-2026-04-10 11:27:53 INFO  TC_001_AccountRegisterationTest:51 -
-			Test Case Passed...
-2026-04-10 11:27:53 INFO  TC_001_AccountRegisterationTest:55 -
-			***** Finished TC_001_AccountRegisterationTest *****
-2026-04-10 11:27:53 INFO  TC_001_AccountRegisterationTest:61 -
-			***** Starting verify_mandatoryFieldErrors Validation Test.....
-2026-04-10 11:27:53 INFO  TC_001_AccountRegisterationTest:65 -
-			Clicked My Account Menu Dropdown
-2026-04-10 11:27:54 INFO  TC_001_AccountRegisterationTest:67 -
-			Clicked Register Link
-2026-04-10 11:27:54 INFO  TC_001_AccountRegisterationTest:70 -
-			Navigated to registration Page...
-2026-04-10 11:27:54 INFO  TC_001_AccountRegisterationTest:73 -
-			Clicked Continue Button
-2026-04-10 11:27:55 INFO  TC_001_AccountRegisterationTest:75 -
-			Verifying all error messages....
-2026-04-10 11:27:55 INFO  TC_001_AccountRegisterationTest:80 -
-			Validation passed for First name, Last Name, E-Mail, Password
-2026-04-10 11:27:55 INFO  TC_001_AccountRegisterationTest:84 -
-			Validation passed for Privacy Policy
-2026-04-10 11:27:55 INFO  TC_001_AccountRegisterationTest:89 -
-			***** Finished Mandatory Field Validation Test *****
-2026-04-10 11:27:55 INFO  TC_001_AccountRegisterationTest:116 -
-			***** Starting verify_passwordFieldAppearsAsPasswordType *****
-2026-04-10 11:27:56 INFO  TC_001_AccountRegisterationTest:138 -
-			***** Starting verify_emailFieldAppearsAsEmailType *****
-2026-04-10 11:27:59 INFO  TC_002_LoginTest:18 -
-			***** Started verify_Login *****
-2026-04-10 11:28:00 INFO  TC_002_LoginTest:23 -
-			Clicked on Login Link...
-2026-04-10 11:28:00 INFO  TC_002_LoginTest:26 -
-			Entering email and password from config files
-2026-04-10 11:28:00 INFO  TC_002_LoginTest:29 -
-			Email and Password fetched successfully from config files
-2026-04-10 11:28:00 INFO  TC_002_LoginTest:31 -
-			Clicked on Login Button
-2026-04-10 11:28:01 INFO  TC_002_LoginTest:36 -
-			My Account Header Validation passed
-2026-04-10 11:28:02 INFO  TC_002_LoginTest:41 -
-			Test Case Passed...
-2026-04-10 11:28:02 INFO  TC_002_LoginTest:45 -
-			***** Finished verify_Login *****
-2026-04-10 11:28:02 INFO  TC_002_LoginTest:50 -
-			***** Started verify_forgottenPassword *****
-2026-04-10 11:28:03 INFO  TC_002_LoginTest:55 -
-			Clicked on Login Link...
-2026-04-10 11:28:03 INFO  TC_002_LoginTest:59 -
-			Clicked on Forgotten Password link
-2026-04-10 11:28:04 INFO  TC_002_LoginTest:61 -
-			Entered E-Mail from config files
-2026-04-10 11:28:04 INFO  TC_002_LoginTest:63 -
-			Clicked on Continue Button
-2026-04-10 11:28:04 INFO  TC_002_LoginTest:66 -
-			Test Case Passed
-2026-04-10 11:28:04 INFO  TC_002_LoginTest:70 -
-			***** Finsished verify_forgottenPassword *****
-2026-04-10 11:35:52 DEBUG TestNG:82 -
-			suiteXmlPath: "D:\Automation Projects\OpenCartV121\master.xml"
-2026-04-10 11:35:54 INFO  TC_001_AccountRegisterationTest:19 -
-			***** Starting TC_001_AccountRegisterationTest *****
-2026-04-10 11:35:55 INFO  TC_001_AccountRegisterationTest:23 -
-			Clicked My Account Link
-2026-04-10 11:35:55 INFO  TC_001_AccountRegisterationTest:25 -
-			Clicked Register Link
-2026-04-10 11:35:55 INFO  TC_001_AccountRegisterationTest:28 -
-			Providing Customer details...
-2026-04-10 11:35:56 INFO  TC_001_AccountRegisterationTest:30 -
-			Entered Customer First Name
-2026-04-10 11:35:56 INFO  TC_001_AccountRegisterationTest:32 -
-			Entered Customer Last Name
-2026-04-10 11:35:56 INFO  TC_001_AccountRegisterationTest:34 -
-			Entered Customer Email
-2026-04-10 11:35:56 INFO  TC_001_AccountRegisterationTest:38 -
-			Entered Customer Password
-2026-04-10 11:35:56 INFO  TC_001_AccountRegisterationTest:41 -
-			Clicked on Privacy Policy
-2026-04-10 11:35:57 INFO  TC_001_AccountRegisterationTest:43 -
-			Clicked on Continue Button
-2026-04-10 11:35:57 INFO  TC_001_AccountRegisterationTest:46 -
-			'My Account Page' success Message - 'Your Account Has Been Created!'also validated...
-2026-04-10 11:35:59 INFO  TC_001_AccountRegisterationTest:50 -
-			Clicked on Logout Btn...
-2026-04-10 11:35:59 INFO  TC_001_AccountRegisterationTest:51 -
-			Test Case Passed...
-2026-04-10 11:35:59 INFO  TC_001_AccountRegisterationTest:55 -
-			***** Finished TC_001_AccountRegisterationTest *****
-2026-04-10 11:35:59 INFO  TC_001_AccountRegisterationTest:61 -
-			***** Starting verify_mandatoryFieldErrors Validation Test.....
-2026-04-10 11:35:59 INFO  TC_001_AccountRegisterationTest:65 -
-			Clicked My Account Menu Dropdown
-2026-04-10 11:36:00 INFO  TC_001_AccountRegisterationTest:67 -
-			Clicked Register Link
-2026-04-10 11:36:00 INFO  TC_001_AccountRegisterationTest:70 -
-			Navigated to registration Page...
-2026-04-10 11:36:00 INFO  TC_001_AccountRegisterationTest:73 -
-			Clicked Continue Button
-2026-04-10 11:36:01 INFO  TC_001_AccountRegisterationTest:75 -
-			Verifying all error messages....
-2026-04-10 11:36:01 INFO  TC_001_AccountRegisterationTest:80 -
-			Validation passed for First name, Last Name, E-Mail, Password
-2026-04-10 11:36:01 INFO  TC_001_AccountRegisterationTest:84 -
-			Validation passed for Privacy Policy
-2026-04-10 11:36:01 INFO  TC_001_AccountRegisterationTest:89 -
-			***** Finished Mandatory Field Validation Test *****
-2026-04-10 11:36:01 INFO  TC_001_AccountRegisterationTest:116 -
-			***** Starting verify_passwordFieldAppearsAsPasswordType *****
-2026-04-10 11:36:02 INFO  TC_001_AccountRegisterationTest:120 -
-			Clicked on My Account Dropdown
-2026-04-10 11:36:03 INFO  TC_001_AccountRegisterationTest:138 -
-			***** Starting verify_emailFieldAppearsAsEmailType *****
-2026-04-10 11:36:05 INFO  TC_001_AccountRegisterationTest:142 -
-			Clicked on My Account Dropdown
-2026-04-10 11:36:16 INFO  TC_002_LoginTest:18 -
-			***** Started verify_Login *****
-2026-04-10 11:36:17 INFO  TC_002_LoginTest:23 -
-			Clicked on Login Link...
-2026-04-10 11:36:17 INFO  TC_002_LoginTest:26 -
-			Entering email and password from config files
-2026-04-10 11:36:17 INFO  TC_002_LoginTest:29 -
-			Email and Password fetched successfully from config files
-2026-04-10 11:36:17 INFO  TC_002_LoginTest:31 -
-			Clicked on Login Button
-2026-04-10 11:36:18 INFO  TC_002_LoginTest:36 -
-			My Account Header Validation passed
-2026-04-10 11:36:19 INFO  TC_002_LoginTest:41 -
-			Test Case Passed...
-2026-04-10 11:36:19 INFO  TC_002_LoginTest:45 -
-			***** Finished verify_Login *****
-2026-04-10 11:36:19 INFO  TC_002_LoginTest:50 -
-			***** Started verify_forgottenPassword *****
-2026-04-10 11:36:20 INFO  TC_002_LoginTest:55 -
-			Clicked on Login Link...
-2026-04-10 11:36:20 INFO  TC_002_LoginTest:59 -
-			Clicked on Forgotten Password link
-2026-04-10 11:36:21 INFO  TC_002_LoginTest:61 -
-			Entered E-Mail from config files
-2026-04-10 11:36:21 INFO  TC_002_LoginTest:63 -
-			Clicked on Continue Button
-2026-04-10 11:36:21 INFO  TC_002_LoginTest:66 -
-			Test Case Passed
-2026-04-10 11:36:21 INFO  TC_002_LoginTest:70 -
-			***** Finsished verify_forgottenPassword *****
-2026-04-10 11:39:16 DEBUG TestNG:82 -
-			suiteXmlPath: "D:\Automation Projects\OpenCartV121\master.xml"
-2026-04-10 11:39:18 INFO  TC_001_AccountRegisterationTest:19 -
-			***** Starting TC_001_AccountRegisterationTest *****
-2026-04-10 11:39:18 INFO  TC_001_AccountRegisterationTest:23 -
-			Clicked My Account Link
-2026-04-10 11:39:19 INFO  TC_001_AccountRegisterationTest:25 -
-			Clicked Register Link
-2026-04-10 11:39:19 INFO  TC_001_AccountRegisterationTest:28 -
-			Providing Customer details...
-2026-04-10 11:39:19 INFO  TC_001_AccountRegisterationTest:30 -
-			Entered Customer First Name
-2026-04-10 11:39:19 INFO  TC_001_AccountRegisterationTest:32 -
-			Entered Customer Last Name
-2026-04-10 11:39:19 INFO  TC_001_AccountRegisterationTest:34 -
-			Entered Customer Email
-2026-04-10 11:39:19 INFO  TC_001_AccountRegisterationTest:38 -
-			Entered Customer Password
-2026-04-10 11:39:20 INFO  TC_001_AccountRegisterationTest:41 -
-			Clicked on Privacy Policy
-2026-04-10 11:39:20 INFO  TC_001_AccountRegisterationTest:43 -
-			Clicked on Continue Button
-2026-04-10 11:39:21 INFO  TC_001_AccountRegisterationTest:46 -
-			'My Account Page' success Message - 'Your Account Has Been Created!'also validated...
-2026-04-10 11:39:22 INFO  TC_001_AccountRegisterationTest:50 -
-			Clicked on Logout Btn...
-2026-04-10 11:39:22 INFO  TC_001_AccountRegisterationTest:51 -
-			Test Case Passed...
-2026-04-10 11:39:22 INFO  TC_001_AccountRegisterationTest:55 -
-			***** Finished TC_001_AccountRegisterationTest *****
-2026-04-10 11:39:22 INFO  TC_001_AccountRegisterationTest:61 -
-			***** Starting verify_mandatoryFieldErrors Validation Test.....
-2026-04-10 11:39:22 INFO  TC_001_AccountRegisterationTest:65 -
-			Clicked My Account Menu Dropdown
-2026-04-10 11:39:23 INFO  TC_001_AccountRegisterationTest:67 -
-			Clicked Register Link
-2026-04-10 11:39:23 INFO  TC_001_AccountRegisterationTest:70 -
-			Navigated to registration Page...
-2026-04-10 11:39:23 INFO  TC_001_AccountRegisterationTest:73 -
-			Clicked Continue Button
-2026-04-10 11:39:24 INFO  TC_001_AccountRegisterationTest:75 -
-			Verifying all error messages....
-2026-04-10 11:39:24 INFO  TC_001_AccountRegisterationTest:80 -
-			Validation passed for First name, Last Name, E-Mail, Password
-2026-04-10 11:39:24 INFO  TC_001_AccountRegisterationTest:84 -
-			Validation passed for Privacy Policy
-2026-04-10 11:39:24 INFO  TC_001_AccountRegisterationTest:89 -
-			***** Finished Mandatory Field Validation Test *****
-2026-04-10 11:39:24 INFO  TC_001_AccountRegisterationTest:116 -
-			***** Starting verify_passwordFieldAppearsAsPasswordType *****
-2026-04-10 11:39:25 INFO  TC_001_AccountRegisterationTest:120 -
-			Clicked on My Account Dropdown
-2026-04-10 11:39:26 INFO  TC_001_AccountRegisterationTest:122 -
-			Clicked on Register
-2026-04-10 11:39:26 INFO  TC_001_AccountRegisterationTest:125 -
-			Navigated to Registration Page....
-2026-04-10 11:39:26 INFO  TC_001_AccountRegisterationTest:129 -
-			Test Case passed
-2026-04-10 11:39:26 INFO  TC_001_AccountRegisterationTest:133 -
-			***** Finished verify_passwordFieldAppearsAsPasswordType *****
-2026-04-10 11:39:26 INFO  TC_001_AccountRegisterationTest:138 -
-			***** Starting verify_emailFieldAppearsAsEmailType *****
-2026-04-10 11:39:26 INFO  TC_001_AccountRegisterationTest:142 -
-			Clicked on My Account Dropdown
-2026-04-10 11:39:27 INFO  TC_001_AccountRegisterationTest:144 -
-			Clicked on Register
-2026-04-10 11:39:27 INFO  TC_001_AccountRegisterationTest:147 -
-			Navigated to Registration Page....
-2026-04-10 11:39:27 INFO  TC_001_AccountRegisterationTest:152 -
-			Test Case passed
-2026-04-10 11:39:27 INFO  TC_001_AccountRegisterationTest:156 -
-			***** Finished verify_emailFieldAppearsAsEmailType *****
-2026-04-10 11:39:29 INFO  TC_002_LoginTest:18 -
-			***** Started verify_Login *****
-2026-04-10 11:39:30 INFO  TC_002_LoginTest:23 -
-			Clicked on Login Link...
-2026-04-10 11:39:30 INFO  TC_002_LoginTest:26 -
-			Entering email and password from config files
-2026-04-10 11:39:30 INFO  TC_002_LoginTest:29 -
-			Email and Password fetched successfully from config files
-2026-04-10 11:39:30 INFO  TC_002_LoginTest:31 -
-			Clicked on Login Button
-2026-04-10 11:39:31 INFO  TC_002_LoginTest:36 -
-			My Account Header Validation passed
-2026-04-10 11:39:32 INFO  TC_002_LoginTest:41 -
-			Test Case Passed...
-2026-04-10 11:39:32 INFO  TC_002_LoginTest:45 -
-			***** Finished verify_Login *****
-2026-04-10 11:39:32 INFO  TC_002_LoginTest:50 -
-			***** Started verify_forgottenPassword *****
-2026-04-10 11:39:32 INFO  TC_002_LoginTest:55 -
-			Clicked on Login Link...
-2026-04-10 11:39:33 INFO  TC_002_LoginTest:59 -
-			Clicked on Forgotten Password link
-2026-04-10 11:39:33 INFO  TC_002_LoginTest:61 -
-			Entered E-Mail from config files
-2026-04-10 11:39:33 INFO  TC_002_LoginTest:63 -
-			Clicked on Continue Button
-2026-04-10 11:39:33 INFO  TC_002_LoginTest:66 -
-			Test Case Passed
-2026-04-10 11:39:33 INFO  TC_002_LoginTest:70 -
-			***** Finsished verify_forgottenPassword *****
-2026-04-10 11:40:41 DEBUG TestNG:82 -
-			suiteXmlPath: "D:\Automation Projects\OpenCartV121\master.xml"
-2026-04-10 11:40:44 INFO  TC_001_AccountRegisterationTest:19 -
-			***** Starting TC_001_AccountRegisterationTest *****
-2026-04-10 11:40:44 INFO  TC_001_AccountRegisterationTest:23 -
-			Clicked My Account Link
-2026-04-10 11:40:45 INFO  TC_001_AccountRegisterationTest:25 -
-			Clicked Register Link
-2026-04-10 11:40:45 INFO  TC_001_AccountRegisterationTest:28 -
-			Providing Customer details...
-2026-04-10 11:40:45 INFO  TC_001_AccountRegisterationTest:30 -
-			Entered Customer First Name
-2026-04-10 11:40:45 INFO  TC_001_AccountRegisterationTest:32 -
-			Entered Customer Last Name
-2026-04-10 11:40:45 INFO  TC_001_AccountRegisterationTest:34 -
-			Entered Customer Email
-2026-04-10 11:40:45 INFO  TC_001_AccountRegisterationTest:38 -
-			Entered Customer Password
-2026-04-10 11:40:46 INFO  TC_001_AccountRegisterationTest:41 -
-			Clicked on Privacy Policy
-2026-04-10 11:40:46 INFO  TC_001_AccountRegisterationTest:43 -
-			Clicked on Continue Button
-2026-04-10 11:40:47 INFO  TC_001_AccountRegisterationTest:46 -
-			'My Account Page' success Message - 'Your Account Has Been Created!'also validated...
-2026-04-10 11:40:48 INFO  TC_001_AccountRegisterationTest:50 -
-			Clicked on Logout Btn...
-2026-04-10 11:40:48 INFO  TC_001_AccountRegisterationTest:51 -
-			Test Case Passed...
-2026-04-10 11:40:48 INFO  TC_001_AccountRegisterationTest:55 -
-			***** Finished TC_001_AccountRegisterationTest *****
-2026-04-10 11:40:48 INFO  TC_001_AccountRegisterationTest:61 -
-			***** Starting verify_mandatoryFieldErrors Validation Test.....
-2026-04-10 11:40:49 INFO  TC_001_AccountRegisterationTest:65 -
-			Clicked My Account Menu Dropdown
-2026-04-10 11:40:49 INFO  TC_001_AccountRegisterationTest:67 -
-			Clicked Register Link
-2026-04-10 11:40:49 INFO  TC_001_AccountRegisterationTest:70 -
-			Navigated to registration Page...
-2026-04-10 11:40:50 INFO  TC_001_AccountRegisterationTest:73 -
-			Clicked Continue Button
-2026-04-10 11:40:50 INFO  TC_001_AccountRegisterationTest:75 -
-			Verifying all error messages....
-2026-04-10 11:40:50 INFO  TC_001_AccountRegisterationTest:80 -
-			Validation passed for First name, Last Name, E-Mail, Password
-2026-04-10 11:40:50 INFO  TC_001_AccountRegisterationTest:84 -
-			Validation passed for Privacy Policy
-2026-04-10 11:40:50 INFO  TC_001_AccountRegisterationTest:89 -
-			***** Finished Mandatory Field Validation Test *****
-2026-04-10 11:40:50 INFO  TC_001_AccountRegisterationTest:116 -
-			***** Starting verify_passwordFieldAppearsAsPasswordType *****
-2026-04-10 11:40:52 INFO  TC_001_AccountRegisterationTest:120 -
-			Clicked on My Account Dropdown
-2026-04-10 11:40:53 INFO  TC_001_AccountRegisterationTest:122 -
-			Clicked on Register
-2026-04-10 11:40:53 INFO  TC_001_AccountRegisterationTest:125 -
-			Navigated to Registration Page....
-2026-04-10 11:40:53 INFO  TC_001_AccountRegisterationTest:129 -
-			Test Case passed
-2026-04-10 11:40:53 INFO  TC_001_AccountRegisterationTest:133 -
-			***** Finished verify_passwordFieldAppearsAsPasswordType *****
-2026-04-10 11:40:53 INFO  TC_001_AccountRegisterationTest:138 -
-			***** Starting verify_emailFieldAppearsAsEmailType *****
-2026-04-10 11:40:53 INFO  TC_001_AccountRegisterationTest:142 -
-			Clicked on My Account Dropdown
-2026-04-10 11:40:54 INFO  TC_001_AccountRegisterationTest:144 -
-			Clicked on Register
-2026-04-10 11:40:54 INFO  TC_001_AccountRegisterationTest:147 -
-			Navigated to Registration Page....
-2026-04-10 11:40:54 INFO  TC_001_AccountRegisterationTest:152 -
-			Test Case passed
-2026-04-10 11:40:54 INFO  TC_001_AccountRegisterationTest:156 -
-			***** Finished verify_emailFieldAppearsAsEmailType *****
-2026-04-10 11:40:55 INFO  TC_002_LoginTest:18 -
-			***** Started verify_Login *****
-2026-04-10 11:40:56 INFO  TC_002_LoginTest:23 -
-			Clicked on Login Link...
-2026-04-10 11:40:56 INFO  TC_002_LoginTest:26 -
-			Entering email and password from config files
-2026-04-10 11:40:56 INFO  TC_002_LoginTest:29 -
-			Email and Password fetched successfully from config files
-2026-04-10 11:40:56 INFO  TC_002_LoginTest:31 -
-			Clicked on Login Button
-2026-04-10 11:40:57 INFO  TC_002_LoginTest:36 -
-			My Account Header Validation passed
-2026-04-10 11:40:58 INFO  TC_002_LoginTest:41 -
-			Test Case Passed...
-2026-04-10 11:40:58 INFO  TC_002_LoginTest:45 -
-			***** Finished verify_Login *****
-2026-04-10 11:40:58 INFO  TC_002_LoginTest:50 -
-			***** Started verify_forgottenPassword *****
-2026-04-10 11:40:59 INFO  TC_002_LoginTest:55 -
-			Clicked on Login Link...
-2026-04-10 11:40:59 INFO  TC_002_LoginTest:59 -
-			Clicked on Forgotten Password link
-2026-04-10 11:41:00 INFO  TC_002_LoginTest:61 -
-			Entered E-Mail from config files
-2026-04-10 11:41:00 INFO  TC_002_LoginTest:63 -
-			Clicked on Continue Button
-2026-04-10 11:41:00 INFO  TC_002_LoginTest:66 -
-			Test Case Passed
-2026-04-10 11:41:00 INFO  TC_002_LoginTest:70 -
-			***** Finsished verify_forgottenPassword *****
-2026-04-10 11:46:41 DEBUG TestNG:82 -
-			suiteXmlPath: "D:\Automation Projects\OpenCartV121\master.xml"
-2026-04-10 11:46:44 INFO  TC_001_AccountRegisterationTest:19 -
-			***** Starting TC_001_AccountRegisterationTest *****
-2026-04-10 11:46:44 INFO  TC_001_AccountRegisterationTest:23 -
-			Clicked My Account Link
-2026-04-10 11:46:45 INFO  TC_001_AccountRegisterationTest:25 -
-			Clicked Register Link
-2026-04-10 11:46:45 INFO  TC_001_AccountRegisterationTest:28 -
-			Providing Customer details...
-2026-04-10 11:46:45 INFO  TC_001_AccountRegisterationTest:30 -
-			Entered Customer First Name
-2026-04-10 11:46:46 INFO  TC_001_AccountRegisterationTest:32 -
-			Entered Customer Last Name
-2026-04-10 11:46:46 INFO  TC_001_AccountRegisterationTest:34 -
-			Entered Customer Email
-2026-04-10 11:46:46 INFO  TC_001_AccountRegisterationTest:38 -
-			Entered Customer Password
-2026-04-10 11:46:46 INFO  TC_001_AccountRegisterationTest:41 -
-			Clicked on Privacy Policy
-2026-04-10 11:46:46 INFO  TC_001_AccountRegisterationTest:43 -
-			Clicked on Continue Button
-2026-04-10 11:46:47 INFO  TC_001_AccountRegisterationTest:46 -
-			'My Account Page' success Message - 'Your Account Has Been Created!'also validated...
-2026-04-10 11:46:48 INFO  TC_001_AccountRegisterationTest:50 -
-			Clicked on Logout Btn...
-2026-04-10 11:46:48 INFO  TC_001_AccountRegisterationTest:51 -
-			Test Case Passed...
-2026-04-10 11:46:48 INFO  TC_001_AccountRegisterationTest:55 -
-			***** Finished TC_001_AccountRegisterationTest *****
-2026-04-10 11:46:48 INFO  TC_001_AccountRegisterationTest:61 -
-			***** Starting verify_mandatoryFieldErrors Validation Test.....
-2026-04-10 11:46:49 INFO  TC_001_AccountRegisterationTest:65 -
-			Clicked My Account Menu Dropdown
-2026-04-10 11:46:50 INFO  TC_001_AccountRegisterationTest:67 -
-			Clicked Register Link
-2026-04-10 11:46:50 INFO  TC_001_AccountRegisterationTest:70 -
-			Navigated to registration Page...
-2026-04-10 11:46:50 INFO  TC_001_AccountRegisterationTest:73 -
-			Clicked Continue Button
-2026-04-10 11:46:51 INFO  TC_001_AccountRegisterationTest:75 -
-			Verifying all error messages....
-2026-04-10 11:46:51 INFO  TC_001_AccountRegisterationTest:80 -
-			Validation passed for First name, Last Name, E-Mail, Password
-2026-04-10 11:46:51 INFO  TC_001_AccountRegisterationTest:84 -
-			Validation passed for Privacy Policy
-2026-04-10 11:46:51 INFO  TC_001_AccountRegisterationTest:89 -
-			***** Finished Mandatory Field Validation Test *****
-2026-04-10 11:46:51 INFO  TC_001_AccountRegisterationTest:116 -
-			***** Starting verify_passwordFieldAppearsAsPasswordType *****
-2026-04-10 11:46:52 INFO  TC_001_AccountRegisterationTest:120 -
-			Clicked on My Account Dropdown
-2026-04-10 11:46:53 INFO  TC_001_AccountRegisterationTest:122 -
-			Clicked on Register
-2026-04-10 11:46:53 INFO  TC_001_AccountRegisterationTest:125 -
-			Navigated to Registration Page....
-2026-04-10 11:46:53 INFO  TC_001_AccountRegisterationTest:129 -
-			Test Case passed
-2026-04-10 11:46:53 INFO  TC_001_AccountRegisterationTest:133 -
-			***** Finished verify_passwordFieldAppearsAsPasswordType *****
-2026-04-10 11:46:53 INFO  TC_001_AccountRegisterationTest:138 -
-			***** Starting verify_emailFieldAppearsAsEmailType *****
-2026-04-10 11:46:53 INFO  TC_001_AccountRegisterationTest:142 -
-			Clicked on My Account Dropdown
-2026-04-10 11:46:54 INFO  TC_001_AccountRegisterationTest:144 -
-			Clicked on Register
-2026-04-10 11:46:54 INFO  TC_001_AccountRegisterationTest:147 -
-			Navigated to Registration Page....
-2026-04-10 11:46:54 INFO  TC_001_AccountRegisterationTest:152 -
-			Test Case passed
-2026-04-10 11:46:54 INFO  TC_001_AccountRegisterationTest:156 -
-			***** Finished verify_emailFieldAppearsAsEmailType *****
-2026-04-10 11:46:56 INFO  TC_002_LoginTest:18 -
-			***** Started verify_Login *****
-2026-04-10 11:46:56 INFO  TC_002_LoginTest:23 -
-			Clicked on Login Link...
-2026-04-10 11:46:56 INFO  TC_002_LoginTest:26 -
-			Entering email and password from config files
-2026-04-10 11:46:57 INFO  TC_002_LoginTest:29 -
-			Email and Password fetched successfully from config files
-2026-04-10 11:46:57 INFO  TC_002_LoginTest:31 -
-			Clicked on Login Button
-2026-04-10 11:46:57 INFO  TC_002_LoginTest:36 -
-			My Account Header Validation passed
-2026-04-10 11:46:58 INFO  TC_002_LoginTest:41 -
-			Test Case Passed...
-2026-04-10 11:46:58 INFO  TC_002_LoginTest:45 -
-			***** Finished verify_Login *****
-2026-04-10 11:46:58 INFO  TC_002_LoginTest:50 -
-			***** Started verify_forgottenPassword *****
-2026-04-10 11:46:59 INFO  TC_002_LoginTest:55 -
-			Clicked on Login Link...
-2026-04-10 11:47:00 INFO  TC_002_LoginTest:59 -
-			Clicked on Forgotten Password link
-2026-04-10 11:47:00 INFO  TC_002_LoginTest:61 -
-			Entered E-Mail from config files
-2026-04-10 11:47:00 INFO  TC_002_LoginTest:63 -
-			Clicked on Continue Button
-2026-04-10 11:47:01 INFO  TC_002_LoginTest:66 -
-			Test Case Passed
-2026-04-10 11:47:01 INFO  TC_002_LoginTest:70 -
-			***** Finsished verify_forgottenPassword *****
-2026-04-10 11:48:35 DEBUG TestNG:82 -
-			suiteXmlPath: "D:\Automation Projects\OpenCartV121\master.xml"
-2026-04-10 11:48:37 INFO  TC_004_EndToEndTest:16 -
+2026-04-10 14:02:10 INFO  TC_004_EndToEndTest:16 -
 			***** Starting  verify_registration_and_login_flow *****
-2026-04-10 11:48:38 INFO  TC_004_EndToEndTest:20 -
+2026-04-10 14:02:10 INFO  TC_004_EndToEndTest:20 -
 			Clicked My Account Dropdown
-2026-04-10 11:48:39 INFO  TC_004_EndToEndTest:22 -
+2026-04-10 14:02:10 INFO  TC_004_EndToEndTest:22 -
 			Clicked Register
-2026-04-10 11:48:39 INFO  TC_004_EndToEndTest:25 -
+2026-04-10 14:02:10 INFO  TC_004_EndToEndTest:25 -
 			Providing New Cutomer Details......
-2026-04-10 11:48:39 INFO  TC_004_EndToEndTest:28 -
+2026-04-10 14:02:10 INFO  TC_004_EndToEndTest:28 -
 			Entered First Name
-2026-04-10 11:48:39 INFO  TC_004_EndToEndTest:30 -
+2026-04-10 14:02:11 INFO  TC_004_EndToEndTest:30 -
 			Entered Last Name
-2026-04-10 11:48:39 INFO  TC_004_EndToEndTest:32 -
+2026-04-10 14:02:11 INFO  TC_004_EndToEndTest:32 -
 			Entered E-Mail
-2026-04-10 11:48:40 INFO  TC_004_EndToEndTest:36 -
+2026-04-10 14:02:11 INFO  TC_004_EndToEndTest:36 -
 			Entered Password
-2026-04-10 11:48:40 INFO  TC_004_EndToEndTest:38 -
+2026-04-10 14:02:12 INFO  TC_004_EndToEndTest:38 -
 			Clicked Privacy Policy
-2026-04-10 11:48:40 INFO  TC_004_EndToEndTest:40 -
+2026-04-10 14:02:13 INFO  TC_004_EndToEndTest:40 -
 			Clicked Continue Button
-2026-04-10 11:48:41 INFO  TC_004_EndToEndTest:43 -
+2026-04-10 14:02:14 INFO  TC_004_EndToEndTest:43 -
 			Message- 'Your Account Has Been Created!' Verified Successfully...
-2026-04-10 11:48:42 INFO  TC_004_EndToEndTest:46 -
+2026-04-10 14:02:14 INFO  TC_004_EndToEndTest:46 -
 			Successfully Clicked on Logout and Registration Test flow passed
-2026-04-10 11:48:42 INFO  TC_004_EndToEndTest:48 -
+2026-04-10 14:02:14 INFO  TC_004_EndToEndTest:48 -
 			Now going to verify Login functionality....
-2026-04-10 11:48:43 INFO  TC_004_EndToEndTest:50 -
+2026-04-10 14:02:14 INFO  TC_004_EndToEndTest:50 -
 			Clicked My Account Dropdown
-2026-04-10 11:48:43 INFO  TC_004_EndToEndTest:52 -
+2026-04-10 14:02:15 INFO  TC_004_EndToEndTest:52 -
 			Clicked Login
-2026-04-10 11:48:43 INFO  TC_004_EndToEndTest:55 -
+2026-04-10 14:02:15 INFO  TC_004_EndToEndTest:55 -
 			Providing Same Customer data while doing Registration....
-2026-04-10 11:48:43 INFO  TC_004_EndToEndTest:57 -
+2026-04-10 14:02:15 INFO  TC_004_EndToEndTest:57 -
 			Entered E-Mail
-2026-04-10 11:48:43 INFO  TC_004_EndToEndTest:59 -
+2026-04-10 14:02:15 INFO  TC_004_EndToEndTest:59 -
 			Entered Password
-2026-04-10 11:48:44 INFO  TC_004_EndToEndTest:61 -
+2026-04-10 14:02:15 INFO  TC_004_EndToEndTest:61 -
 			Clicked Login
-2026-04-10 11:48:44 INFO  TC_004_EndToEndTest:66 -
+2026-04-10 14:02:15 INFO  TC_004_EndToEndTest:66 -
 			Header Successfully Verified....
-2026-04-10 11:48:45 INFO  TC_004_EndToEndTest:69 -
+2026-04-10 14:02:16 INFO  TC_004_EndToEndTest:69 -
 			Successfully Clicked Logout and Test Passed
-2026-04-10 11:48:45 INFO  TC_004_EndToEndTest:73 -
+2026-04-10 14:02:16 INFO  TC_004_EndToEndTest:73 -
 			***** Finished EndToEnd verify_registration_and_login_flow *****
-2026-04-10 11:48:47 INFO  TC_001_AccountRegisterationTest:19 -
+2026-04-10 14:02:18 INFO  TC_001_AccountRegisterationTest:19 -
 			***** Starting TC_001_AccountRegisterationTest *****
-2026-04-10 11:48:47 INFO  TC_001_AccountRegisterationTest:23 -
+2026-04-10 14:02:18 INFO  TC_001_AccountRegisterationTest:23 -
 			Clicked My Account Link
-2026-04-10 11:48:48 INFO  TC_001_AccountRegisterationTest:25 -
+2026-04-10 14:02:18 INFO  TC_001_AccountRegisterationTest:25 -
 			Clicked Register Link
-2026-04-10 11:48:48 INFO  TC_001_AccountRegisterationTest:28 -
+2026-04-10 14:02:18 INFO  TC_001_AccountRegisterationTest:28 -
 			Providing Customer details...
-2026-04-10 11:48:48 INFO  TC_001_AccountRegisterationTest:30 -
+2026-04-10 14:02:18 INFO  TC_001_AccountRegisterationTest:30 -
 			Entered Customer First Name
-2026-04-10 11:48:48 INFO  TC_001_AccountRegisterationTest:32 -
+2026-04-10 14:02:18 INFO  TC_001_AccountRegisterationTest:32 -
 			Entered Customer Last Name
-2026-04-10 11:48:48 INFO  TC_001_AccountRegisterationTest:34 -
+2026-04-10 14:02:19 INFO  TC_001_AccountRegisterationTest:34 -
 			Entered Customer Email
-2026-04-10 11:48:49 INFO  TC_001_AccountRegisterationTest:38 -
+2026-04-10 14:02:19 INFO  TC_001_AccountRegisterationTest:38 -
 			Entered Customer Password
-2026-04-10 11:48:49 INFO  TC_001_AccountRegisterationTest:41 -
+2026-04-10 14:02:20 INFO  TC_001_AccountRegisterationTest:41 -
 			Clicked on Privacy Policy
-2026-04-10 11:48:49 INFO  TC_001_AccountRegisterationTest:43 -
+2026-04-10 14:02:21 INFO  TC_001_AccountRegisterationTest:43 -
 			Clicked on Continue Button
-2026-04-10 11:48:50 INFO  TC_001_AccountRegisterationTest:46 -
+2026-04-10 14:02:21 INFO  TC_001_AccountRegisterationTest:46 -
 			'My Account Page' success Message - 'Your Account Has Been Created!'also validated...
-2026-04-10 11:48:51 INFO  TC_001_AccountRegisterationTest:50 -
+2026-04-10 14:02:22 INFO  TC_001_AccountRegisterationTest:50 -
 			Clicked on Logout Btn...
-2026-04-10 11:48:51 INFO  TC_001_AccountRegisterationTest:51 -
+2026-04-10 14:02:22 INFO  TC_001_AccountRegisterationTest:51 -
 			Test Case Passed...
-2026-04-10 11:48:51 INFO  TC_001_AccountRegisterationTest:55 -
+2026-04-10 14:02:22 INFO  TC_001_AccountRegisterationTest:55 -
 			***** Finished TC_001_AccountRegisterationTest *****
-2026-04-10 11:48:51 INFO  TC_001_AccountRegisterationTest:61 -
+2026-04-10 14:02:22 INFO  TC_001_AccountRegisterationTest:61 -
 			***** Starting verify_mandatoryFieldErrors Validation Test.....
-2026-04-10 11:48:51 INFO  TC_001_AccountRegisterationTest:65 -
+2026-04-10 14:02:22 INFO  TC_001_AccountRegisterationTest:65 -
 			Clicked My Account Menu Dropdown
-2026-04-10 11:48:52 INFO  TC_001_AccountRegisterationTest:67 -
+2026-04-10 14:02:23 INFO  TC_001_AccountRegisterationTest:67 -
 			Clicked Register Link
-2026-04-10 11:48:52 INFO  TC_001_AccountRegisterationTest:70 -
+2026-04-10 14:02:23 INFO  TC_001_AccountRegisterationTest:70 -
 			Navigated to registration Page...
-2026-04-10 11:48:52 INFO  TC_001_AccountRegisterationTest:73 -
+2026-04-10 14:02:24 INFO  TC_001_AccountRegisterationTest:73 -
 			Clicked Continue Button
-2026-04-10 11:48:53 INFO  TC_001_AccountRegisterationTest:75 -
+2026-04-10 14:02:25 INFO  TC_001_AccountRegisterationTest:75 -
 			Verifying all error messages....
-2026-04-10 11:48:53 INFO  TC_001_AccountRegisterationTest:80 -
+2026-04-10 14:02:25 INFO  TC_001_AccountRegisterationTest:80 -
 			Validation passed for First name, Last Name, E-Mail, Password
-2026-04-10 11:48:53 INFO  TC_001_AccountRegisterationTest:84 -
+2026-04-10 14:02:25 INFO  TC_001_AccountRegisterationTest:84 -
 			Validation passed for Privacy Policy
-2026-04-10 11:48:53 INFO  TC_001_AccountRegisterationTest:89 -
+2026-04-10 14:02:25 INFO  TC_001_AccountRegisterationTest:89 -
 			***** Finished Mandatory Field Validation Test *****
-2026-04-10 11:48:53 INFO  TC_001_AccountRegisterationTest:116 -
+2026-04-10 14:02:25 INFO  TC_001_AccountRegisterationTest:116 -
 			***** Starting verify_passwordFieldAppearsAsPasswordType *****
-2026-04-10 11:48:55 INFO  TC_001_AccountRegisterationTest:120 -
+2026-04-10 14:02:25 INFO  TC_001_AccountRegisterationTest:120 -
 			Clicked on My Account Dropdown
-2026-04-10 11:48:55 INFO  TC_001_AccountRegisterationTest:122 -
+2026-04-10 14:02:25 INFO  TC_001_AccountRegisterationTest:122 -
 			Clicked on Register
-2026-04-10 11:48:55 INFO  TC_001_AccountRegisterationTest:125 -
+2026-04-10 14:02:25 INFO  TC_001_AccountRegisterationTest:125 -
 			Navigated to Registration Page....
-2026-04-10 11:48:55 INFO  TC_001_AccountRegisterationTest:129 -
+2026-04-10 14:02:25 INFO  TC_001_AccountRegisterationTest:129 -
 			Test Case passed
-2026-04-10 11:48:55 INFO  TC_001_AccountRegisterationTest:133 -
+2026-04-10 14:02:25 INFO  TC_001_AccountRegisterationTest:133 -
 			***** Finished verify_passwordFieldAppearsAsPasswordType *****
-2026-04-10 11:48:55 INFO  TC_001_AccountRegisterationTest:138 -
+2026-04-10 14:02:25 INFO  TC_001_AccountRegisterationTest:138 -
 			***** Starting verify_emailFieldAppearsAsEmailType *****
-2026-04-10 11:48:56 INFO  TC_001_AccountRegisterationTest:142 -
+2026-04-10 14:02:25 INFO  TC_001_AccountRegisterationTest:142 -
 			Clicked on My Account Dropdown
-2026-04-10 11:48:56 INFO  TC_001_AccountRegisterationTest:144 -
+2026-04-10 14:02:26 INFO  TC_001_AccountRegisterationTest:144 -
 			Clicked on Register
-2026-04-10 11:48:56 INFO  TC_001_AccountRegisterationTest:147 -
+2026-04-10 14:02:26 INFO  TC_001_AccountRegisterationTest:147 -
 			Navigated to Registration Page....
-2026-04-10 11:48:56 INFO  TC_001_AccountRegisterationTest:152 -
+2026-04-10 14:02:26 INFO  TC_001_AccountRegisterationTest:152 -
 			Test Case passed
-2026-04-10 11:48:56 INFO  TC_001_AccountRegisterationTest:156 -
+2026-04-10 14:02:26 INFO  TC_001_AccountRegisterationTest:156 -
 			***** Finished verify_emailFieldAppearsAsEmailType *****
-2026-04-10 11:48:58 INFO  TC_002_LoginTest:18 -
+2026-04-10 14:02:27 INFO  TC_002_LoginTest:18 -
 			***** Started verify_Login *****
-2026-04-10 11:48:59 INFO  TC_002_LoginTest:23 -
+2026-04-10 14:02:28 INFO  TC_002_LoginTest:23 -
 			Clicked on Login Link...
-2026-04-10 11:48:59 INFO  TC_002_LoginTest:26 -
+2026-04-10 14:02:28 INFO  TC_002_LoginTest:26 -
 			Entering email and password from config files
-2026-04-10 11:48:59 INFO  TC_002_LoginTest:29 -
+2026-04-10 14:02:28 INFO  TC_002_LoginTest:29 -
 			Email and Password fetched successfully from config files
-2026-04-10 11:48:59 INFO  TC_002_LoginTest:31 -
+2026-04-10 14:02:28 INFO  TC_002_LoginTest:31 -
 			Clicked on Login Button
-2026-04-10 11:49:00 INFO  TC_002_LoginTest:36 -
+2026-04-10 14:02:29 INFO  TC_002_LoginTest:36 -
 			My Account Header Validation passed
-2026-04-10 11:49:00 INFO  TC_002_LoginTest:41 -
+2026-04-10 14:02:29 INFO  TC_002_LoginTest:41 -
 			Test Case Passed...
-2026-04-10 11:49:00 INFO  TC_002_LoginTest:45 -
+2026-04-10 14:02:29 INFO  TC_002_LoginTest:45 -
 			***** Finished verify_Login *****
-2026-04-10 11:49:00 INFO  TC_002_LoginTest:50 -
+2026-04-10 14:02:29 INFO  TC_002_LoginTest:50 -
 			***** Started verify_forgottenPassword *****
-2026-04-10 11:49:01 INFO  TC_002_LoginTest:55 -
+2026-04-10 14:02:30 INFO  TC_002_LoginTest:55 -
 			Clicked on Login Link...
-2026-04-10 11:49:02 INFO  TC_002_LoginTest:59 -
+2026-04-10 14:02:30 INFO  TC_002_LoginTest:59 -
 			Clicked on Forgotten Password link
-2026-04-10 11:49:02 INFO  TC_002_LoginTest:61 -
+2026-04-10 14:02:30 INFO  TC_002_LoginTest:61 -
 			Entered E-Mail from config files
-2026-04-10 11:49:02 INFO  TC_002_LoginTest:63 -
+2026-04-10 14:02:31 INFO  TC_002_LoginTest:63 -
 			Clicked on Continue Button
-2026-04-10 11:49:03 INFO  TC_002_LoginTest:66 -
+2026-04-10 14:02:31 INFO  TC_002_LoginTest:66 -
 			Test Case Passed
-2026-04-10 11:49:03 INFO  TC_002_LoginTest:70 -
+2026-04-10 14:02:31 INFO  TC_002_LoginTest:70 -
 			***** Finsished verify_forgottenPassword *****
+2026-04-10 14:02:31 INFO  TC_002_LoginTest:76 -
+			***** Starting verifyErrorMessageForInvalidLoginCredentials *****
+2026-04-10 14:02:32 INFO  TC_002_LoginTest:81 -
+			Clicked on Login
+2026-04-10 14:02:32 INFO  TC_002_LoginTest:85 -
+			Entered E-Mail
+2026-04-10 14:02:32 INFO  TC_002_LoginTest:89 -
+			Entered password
+2026-04-10 14:02:32 INFO  TC_002_LoginTest:91 -
+			Clicked on Login Button
+2026-04-10 14:02:32 INFO  TC_002_LoginTest:94 -
+			Test Case Passed with error message Validation

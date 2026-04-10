@@ -25,6 +25,7 @@ public class MyAccountPage extends BasePage{
 	}
 	
 	public void clickLogout() {
-		lnkLogout.click();
+		//lnkLogout.click();
+		clickElement(lnkLogout);
 	}
 }

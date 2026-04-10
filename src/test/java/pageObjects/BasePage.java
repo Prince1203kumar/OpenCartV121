@@ -46,7 +46,7 @@ public class BasePage {
 	
 	
 	
-	//Wait until Single WebElement is visible
+	//For locator
 	public WebElement waitForElementVisible(By locator) {
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 		try {
@@ -55,6 +55,7 @@ public class BasePage {
 			throw new RuntimeException("Element not visible: " + locator, e);
 		}
 	}
+	
 	
 	public List<WebElement> waitForMultipleElementsVisible(By locator) {
 	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));

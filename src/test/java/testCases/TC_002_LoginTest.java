@@ -69,5 +69,33 @@ public class TC_002_LoginTest extends BaseClass {
 		}
 		logger.info("***** Finsished verify_forgottenPassword *****");
 	}
+	
+	@Test(priority=3)
+	public void verifyErrorMessageForInvalidLoginCredentials() {
+		
+		logger.info("***** Starting verifyErrorMessageForInvalidLoginCredentials *****");
+		try {
+			HomePage hp = new HomePage(driver);
+			hp.clickMyAccount();
+			hp.clickLogin();
+			logger.info("Clicked on Login");
+			
+			LoginPage login = new LoginPage(driver);
+			login.enterEmail(randomAlpha()+"@gmail.com");
+			logger.info("Entered E-Mail");
+			String text= randomAlpha();
+			String password = text+randomAlpha();
+			login.enterPassword(password);
+			logger.info("Entered password");
+			login.clickLogin();
+			logger.info("Clicked on Login Button");
+			String actualErrorMessage = login.getErrorMessage();
+			Assert.assertEquals(actualErrorMessage, " Warning: No match for E-Mail Address and/or Password. ".trim());
+			logger.info("Test Case Passed with error message Validation");
+		}catch(Exception e) {
+			Assert.fail("Failed due to reason: "+e.getMessage());
+		}
+		
+	}
 
 }

@@ -13,8 +13,6 @@ public class HomePage extends BasePage {
 
 	@FindBy(xpath = "//a/span[text()='My Account']")
 	WebElement lnkMyAccount;
-	
-	By myAccount = By.xpath("//a/span[text()='My Account']");
 
 	@FindBy(xpath = "//ul/li/a[text()='Register']")
 	WebElement lnkRegister;
@@ -23,16 +21,21 @@ public class HomePage extends BasePage {
 	WebElement lnkLogin;
 
 	public void clickMyAccount() {
-	    WebElement element = waitForElementToBeClickable(lnkMyAccount);
+	    /*WebElement element = waitForElementToBeClickable(lnkMyAccount);
 	    clickElement(element);
+	    */
+		clickElement(lnkMyAccount);
 	}
 
 	public void clickRegister() {
-		WebElement element = waitForElementToBeClickable(lnkRegister);
+		/*WebElement element = waitForElementToBeClickable(lnkRegister);
 	    clickElement(element);
+	    */
+		clickElement(lnkRegister);
 	}
 
 	public void clickLogin() {
-		lnkLogin.click();
+		//lnkLogin.click();
+		clickElement(lnkLogin);
 	}
 }

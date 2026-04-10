@@ -50,7 +50,8 @@ public class RegistrationPage extends BasePage {
 
 	By errorPrivacyPolicyMessage = By.xpath("//div[@id='alert']/div");
 
-	By lnkLogout = By.xpath("//ul/li/a[text()='Logout']");
+	@FindBy(xpath="//ul/li/a[text()='Logout']")
+	WebElement btnLogout;
 
 	/*@FindBy(xpath="//ul/li/a")
 	List<WebElement> links;
@@ -83,7 +84,7 @@ public class RegistrationPage extends BasePage {
 	}
 
 	public void clickPrivacyPolicy() {
-		scrollToElement(chkPrivacyPolicy);
+		/*scrollToElement(chkPrivacyPolicy);
 		try {
 			WebElement privacyPolicyBtn = waitForElementToBeClickable(clkPrivacyPolicy);
 			System.out.println("We capture WebElement of privacy Policy....");
@@ -92,14 +93,18 @@ public class RegistrationPage extends BasePage {
 		} catch (Exception e) {
 			System.out.println("Privacy Policy not working...");
 		}
+		*/
+		clickElement(chkPrivacyPolicy);
 	}
 
 	public void clickBtnContinue() {
-		scrollToElement(btnContinue);
+		/*scrollToElement(btnContinue);
 		WebElement btn = waitForElementToBeClickable(continueBtn);
 		System.out.println("We capture Continue WebElement....");
 		btn.click();
 		System.out.println("Continue btn working fine");
+		*/
+		clickElement(btnContinue);
 	}
 
 	public String getConfirmMessage() {
@@ -124,9 +129,10 @@ public class RegistrationPage extends BasePage {
 	}
 
 	public void clickLogout() throws InterruptedException {
-		//Thread.sleep(3000);
-		WebElement logoutBtn = waitForElementToBeClickable(lnkLogout);
+		/*WebElement logoutBtn = waitForElementToBeClickable(lnkLogout);
 		logoutBtn.click();
+		*/
+		clickElement(btnLogout);
 	}
 
 	public int countNumberOfLinks() {
