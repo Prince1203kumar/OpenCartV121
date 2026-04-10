@@ -4,17 +4,10 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="ChromeTest(failed)">
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_001_AccountRegisterationTest">
-        <methods>
-          <include name="verify_Account_Registeration"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testCases.TC_001_AccountRegisterationTest -->
       <class name="testCases.TC_002_LoginTest">
         <methods>
           <include name="verify_Login"/>
@@ -22,6 +15,33 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- testCases.TC_002_LoginTest -->
+      <class name="testCases.TC_001_AccountRegisterationTest">
+        <methods>
+          <include name="verify_Account_Registeration"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.TC_001_AccountRegisterationTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="os" value="Linux"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.TC_002_LoginTest">
+        <methods>
+          <include name="verify_Login"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.TC_002_LoginTest -->
+      <class name="testCases.TC_001_AccountRegisterationTest">
+        <methods>
+          <include name="verify_Account_Registeration"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.TC_001_AccountRegisterationTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

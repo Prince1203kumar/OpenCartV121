@@ -8,20 +8,21 @@
 		<parameter name="os" value="Windows"></parameter>
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
-			<class name="testCases.TC_001_AccountRegisterationTest" />
+			<class name="testCases.TC_004_EndToEndTest"/>
+			<class name="testCases.TC_001_AccountRegisterationTest" /> 
+			
+			
 			<class name="testCases.TC_002_LoginTest" />
 			<!-- <class name="testCases.TC_003_LoginDDT"/> -->
 		</classes>
 	</test>
-	<test thread-count="5" name="FirefoxTest">
+	<!-- <test thread-count="5" name="FirefoxTest">
 		<parameter name="os" value="Linux"></parameter>
 		<parameter name="browser" value="firefox"></parameter>
 		<classes>
 			<class name="testCases.TC_001_AccountRegisterationTest" />
 			<class name="testCases.TC_002_LoginTest" />
-			<!-- <class name="testCases.TC_003_LoginDDT"/> -->
+			 <class name="testCases.TC_003_LoginDDT"/> 
 		</classes>
-	</test> <!--
-	Test -->
-</suite> <!--
-Suite -->
+	</test> -->
+</suite> 

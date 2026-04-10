@@ -6,15 +6,16 @@ import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
+import pageObjects.RegistrationPage;
 import testBase.BaseClass;
 
 
 
 public class TC_002_LoginTest extends BaseClass {
 
-	@Test(groups={"Sanity","Master"})
+	@Test(priority=1, groups={"Sanity","Master"})
 	public void verify_Login() {
-		logger.info("***** Started TC_002_LoginTest *****");
+		logger.info("***** Started verify_Login *****");
 		try {
 			HomePage hp = new HomePage(driver);
 			hp.clickMyAccount();
@@ -31,17 +32,42 @@ public class TC_002_LoginTest extends BaseClass {
 			
 			MyAccountPage myAccPage = new MyAccountPage(driver);
 			boolean myAccount = myAccPage.getHeaderMyAccount();
-			if (myAccount) {
-				logger.info("Login Test Paseed Successfully...");
-				Assert.assertTrue(true);
-			} else {
-				logger.error("Error Occurred....");
-				logger.debug("Test Case Failed....");
-			}
+			Assert.assertTrue(myAccount);
+			logger.info("My Account Header Validation passed");
+			hp.clickMyAccount();
+			
+			RegistrationPage regPage = new RegistrationPage(driver);
+			regPage.clickLogout();
+			logger.info("Test Case Passed...");
 		} catch (Exception e) {
-			Assert.assertTrue(false);
+			Assert.fail("Test Faile due to reason: "+ e.getMessage());
 		}
-		logger.info("***** Finished TC_002_LoginTest *****");
+		logger.info("***** Finished verify_Login *****");
+	}
+	
+	@Test(priority=2)
+	public void verify_forgottenPassword() {
+		logger.info("***** Started verify_forgottenPassword *****");
+		try {
+			HomePage hp = new HomePage(driver);
+			hp.clickMyAccount();
+			hp.clickLogin();
+			logger.info("Clicked on Login Link...");
+			
+			LoginPage login = new LoginPage(driver);
+			login.clickForgottenPassword();
+			logger.info("Clicked on Forgotten Password link");
+			login.enterEmail(p.getProperty("email"));
+			logger.info("Entered E-Mail from config files");
+			login.clickBtnContinue();
+			logger.info("Clicked on Continue Button");
+			String successMsg = login.getSuccessMessage();
+			Assert.assertEquals(successMsg, " text_success ".trim());
+			logger.info("Test Case Passed");
+		}catch(Exception e) {
+			Assert.fail("Failed due to reason: "+e.getMessage());
+		}
+		logger.info("***** Finsished verify_forgottenPassword *****");
 	}
 
 }

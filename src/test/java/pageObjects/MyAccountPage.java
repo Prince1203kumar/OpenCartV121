@@ -10,9 +10,9 @@ public class MyAccountPage extends BasePage{
 		super(driver);
 	}
 	
-	@FindBy(xpath="//div/h2[text()='My Account']")
+	@FindBy(xpath="//h1[text()='My Account']")
 	WebElement headerMyAccount;
-	@FindBy(xpath="//div/a[text()='Logout']")
+	@FindBy(xpath="//aside/div/a[text()='Logout']")
 	WebElement lnkLogout;
 	
 	public boolean getHeaderMyAccount() {
